@@ -3,7 +3,7 @@ Heyho, this is my Version of Marlin for the MP Select Mini V2. Its based on vers
 The Config files for the MP Select Mini V2 are allready inside the Marlin folder and pre configured. 
 
 
-I also uploaded my working and ready to flash Firmware. BUT PLEASE BE CAREFULL WHILE USING THEM. PLEASE TEST CAREFULLY TO AVOID DAMAGE!
+I also uploaded my working and ready to flash Firmware. My Version expects a dedicated Parcooling fan at the controlled Fan Port on the Mainboard and the Hotend fan directly wired to the 12V Rail. BUT PLEASE BE CAUTIOUS WHILE USING THEM. PLEASE TEST CAREFULLY TO AVOID DAMAGE!
 
 
 
