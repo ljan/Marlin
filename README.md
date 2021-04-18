@@ -1,9 +1,7 @@
-Heyho, this is my Version of Marlin for the MP Select Mini V2. Its based on verson 2.0.6.1. All the version after that one have a Watchdog bug, which will restart your printer every 8 seconds. It compiles using VSCode. But, due to a bug, not on Windows 10. Use Windows 8.1 or below, Linux or OSX instead. 
-
-The Config files for the MP Select Mini V2 are allready inside the Marlin folder and pre configured. 
+This is Marlin for the MP Select Mini V2. It compiles using VSCode. The Config files for the MP Select Mini V2 are allready inside the Marlin folder and pre configured. 
 
 
-I also uploaded my working and ready to flash Firmware. My Version expects a dedicated Parcooling fan at the controlled Fan Port on the Mainboard and the Hotend fan directly wired to the 12V Rail. BUT PLEASE BE CAUTIOUS WHILE USING THEM. PLEASE TEST CAREFULLY TO AVOID DAMAGE!
+The Configuration expects a dedicated Partcooling fan at the controlled Fan Port on the Mainboard and the Hotend fan directly wired to the 12V Rail. Also it is configured to use the 100K thermistor - ATC Semitec 104GT-2.
 
 
 
