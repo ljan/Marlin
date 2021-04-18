@@ -5,6 +5,7 @@ The Configuration expects a dedicated Partcooling fan at the controlled Fan Port
 
 
 Thanks to max5800 for adjusting Marlin for the MPSMv2 and for making a nice tutorial Video without that I would never have tried to update the Firmware. 
+
 [![Video: How to flash Marlin 2 | MP Select Mini V2 Adventure](https://i.ytimg.com/vi/1RUXO9SUzUI/mqdefault.jpg)](https://youtu.be/1RUXO9SUzUI "Video: How to flash Marlin 2 | MP Select Mini V2 Adventure")
 
 # Marlin 3D Printer Firmware
