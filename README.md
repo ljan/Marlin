@@ -1,7 +1,15 @@
 This is Marlin for the MP Select Mini V2. It compiles using VSCode. The Config files for the MP Select Mini V2 are allready inside the Marlin folder and pre configured. 
 
 
-The Configuration expects a dedicated Partcooling fan at the controlled Fan Port on the Mainboard and the Hotend fan directly wired to the 12V Rail. Also it is configured to use the 100K thermistor - ATC Semitec 104GT-2.
+Configuration changes:
+
+- The Hotend Fan must be directly wired to the 12 V Rail
+- A dedicated Partcooling Fan can be connected to the controlled Fan Port 1 on the Mainboard (original Hotend Fan) 
+- The Fan Port 2 is used (like the original) to cool the Board
+- Also it is configured to use the 100K thermistor - ATC Semitec 104GT-2
+
+
+Before you start printing check all outputs: Axis are moving in the right direction, Mainboard Fan turns on at Steppermovement, Partcooling Fan turns on when needed and Temperatures are correct.
 
 
 Thanks to max5800 for adjusting Marlin for the MPSMv2 and for making a nice tutorial Video without that I would never have tried to update the Firmware. 
