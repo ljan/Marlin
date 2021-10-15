@@ -1,4 +1,6 @@
-This is Marlin for the MP Select Mini V2. It compiles using VSCode. The Config files for the MP Select Mini V2 are allready inside the Marlin folder and pre configured. 
+https://www.youtube.com/watch?v=1RUXO9SUzUI&t=147s
+
+Heyho, this is my Version of Marlin for the MP Select Mini V2. Its based on verson 2.0.6.1. All the version after that one have a Watchdog bug, which will restart your printer every 8 seconds. It compiles using VSCode.
 
 
 Configuration changes:
