@@ -1,7 +1,6 @@
 name: 🪲 Report a bug
 description: Create a bug report to help improve Marlin Firmware
 title: "[BUG] (bug summary)"
-issue_body: true
 body:
   - type: markdown
     attributes:
@@ -113,6 +112,18 @@ body:
 
   - type: dropdown
     attributes:
+      label: Bed Leveling
+      description: What kind of bed leveling compensation are you using?
+      options:
+        - UBL Bilinear mesh
+        - ABL Bilinear mesh
+        - ABL Linear grid
+        - ABL 3-point
+        - MBL Manual Bed Leveling
+        - No Bed Leveling
+
+  - type: dropdown
+    attributes:
       label: Your Slicer
       description: Do you use Slic3r, Prusa Slicer, Simplify3D, IdeaMaker...?
       options:
@@ -152,3 +163,7 @@ body:
         If you've made any other modifications to the firmware, please describe them in detail in the space provided.
 
         When pasting formatted text into the box below don't forget to put ` ``` ` (on its own line) before and after to make it readable.
+
+  - type: textarea
+    attributes:
+      label: Additional information & file uploads
