@@ -929,7 +929,7 @@
  * Override with M92
  *                                      X, Y, Z [, I [, J [, K]]], E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 415 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 404.8 }
 
 /**
  * Default Max Feed Rate (mm/s)
@@ -2006,7 +2006,7 @@
  *
  * View the current statistics with M78.
  */
-//#define PRINTCOUNTER
+#define PRINTCOUNTER
 #if ENABLED(PRINTCOUNTER)
   #define PRINTCOUNTER_SAVE_INTERVAL 60 // (minutes) EEPROM save interval during print
 #endif
