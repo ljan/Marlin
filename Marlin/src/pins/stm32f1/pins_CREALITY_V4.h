@@ -209,3 +209,17 @@
   #define BEEPER_PIN                        PA5
 
 #endif
+
+// Added this section for TMC2208 uart control - Requires hardware modification
+#if HAS_TMC_UART
+  /**
+   * TMC2208 stepper drivers
+   * Software serial communication ports
+   */
+
+  // Reuse SCLK 'debug' header pin next to LCD socket, unpopulated on 4.2.2 boards
+  #define E0_SERIAL_TX_PIN                  PA14
+  #define E0_SERIAL_RX_PIN                  PA14
+
+  #define TMC_BAUD_RATE                    19600
+#endif
